@@ -1,0 +1,28 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    margin-top: 8px;
+}
+.search-input{
+    padding: 14px;
+    width:50%;
+     border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+    
+}
+.search-btn{
+  padding: 16px 16px;
+  background-color: royalblue;
+  border:none;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+.cart{
+    border:1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    padding:10px;
+    margin-right: 10px;
+}
